@@ -1,0 +1,72 @@
+/* style.css - Estilos para la Calculadora de Huella Hídrica */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e6f7f3;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #00796b;
+}
+
+h2 {
+  margin-top: 1.5rem;
+  color: #004d40;
+}
+
+label {
+  display: block;
+  margin: 0.8rem 0;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.7rem;
+  background-color: #00796b;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d40;
+}
+
+.resultado {
+  margin-top: 2rem;
+  background-color: #e0f2f1;
+  padding: 1rem;
+  border-left: 6px solid #00796b;
+  border-radius: 6px;
+}
+
+.resultado h3 {
+  margin-top: 0;
+  color: #00796b;
+}

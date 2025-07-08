@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de Huella Hídrica</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Huella Hídrica</h1>
+    <form id="calculator">
+      <h2>Uso Doméstico</h2>
+      <label>
+        ¿Cuántos minutos te duchas al día?
+        <input type="number" id="ducha" min="0" />
+      </label>
+      <label>
+        ¿Cuántas veces a la semana usas la lavadora?
+        <input type="number" id="lavadora" min="0" />
+      </label>
+
+      <h2>Consumo Alimentario</h2>
+      <label>
+        ¿Cuántas veces por semana comes carne roja?
+        <input type="number" id="carne" min="0" />
+      </label>
+      <label>
+        ¿Cuántas veces por semana consumes lácteos?
+        <input type="number" id="lacteos" min="0" />
+      </label>
+
+      <h2>Consumo de Bienes</h2>
+      <label>
+        ¿Cuántas camisetas compras al mes?
+        <input type="number" id="camisetas" min="0" />
+      </label>
+
+      <button type="button" onclick="calcularHuella()">Calcular</button>
+    </form>
+
+    <div id="resultado" class="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
